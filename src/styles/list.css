@@ -1,0 +1,75 @@
+.restaurants {
+    margin: 32px auto;
+    text-align: left;
+    display: grid;
+    grid-row-gap: 20px;
+    
+}
+
+.restaurant-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+} 
+.restaurant-item:hover {
+    box-shadow: 0 2px 15px 0 black;
+}
+.restaurant-item a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.list-itemkonten {
+    padding: 16px;
+}
+
+.list-itemkonten h2 {
+    font-size: 25px;
+}
+
+.list-itemkonten p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.nama-resto {
+    font-weight: 500;
+    margin-top: 8px;
+    transition: 0.3s opacity;
+    width: 100%;
+    padding: 5px;
+}
+
+.nama-resto:hover {
+    opacity: 0.5;
+}
+
+.nama-resto a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gambar-resto {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.thumnil-card {
+    position: relative;
+}
+
+.kota-resto {
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}

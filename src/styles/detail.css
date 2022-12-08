@@ -1,0 +1,165 @@
+.detail {
+    margin-top: 32px;
+}
+
+.gambarDetail-resto {
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.detailResto {
+    display: grid;
+    text-align: left;
+}
+
+.detailResto h2{
+    font-size: 1.2em;
+}
+
+.deskripsiResto {
+    text-align: justify;
+}
+
+.kategoriResto {
+    text-align: left;
+}
+
+.namaKategori-resto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(1, 60, 253);
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 1em;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.menuResto{
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+
+.menuResto h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.list-menuResto ul h3{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    box-shadow: 1px 2px 20px 1px rgb(149, 149, 149);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.list-menuResto li{
+    background-color: rgb(223, 223, 223);
+    font-size: 15px;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.list-menuResto li p {
+    text-align: center;
+}
+.list-menuResto li:hover {
+    box-shadow: 0 2px 15px 0 black;
+}
+.list-menuResto h3 {
+    text-align: center;
+    font-size: 1em;
+}
+.list-menuResto ul {
+    margin: 0 auto;
+}
+
+.list-menuResto li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.reviews h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.review-list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.review-item:hover {
+    box-shadow: 0 2px 15px 0 black;
+}
+
+.namaReviewer {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.tanggalReviewer {
+    font-size: 14px;
+}
+
+.pesanReviewer {
+    text-align: left;
+}
+
+.like {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CC3636;
+    
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: 0;
+    
+    font-size: 18px;
+    color: #FFE9A0;
+    cursor: pointer;
+  }
+
+.like i {
+    font-size: 45px;
+}

@@ -1,0 +1,100 @@
+@media screen and (max-width: 957px) {
+    .nav {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav {
+        z-index: 10;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        position: absolute;
+        transition: all 0.5s;
+        top: -500px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
+    .open {
+        top: 60px;
+    }
+    .nav_item {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+    .nav_item a {
+        font-size: 28px;
+    }
+    .review-item {
+        flex-direction: column;
+    }
+    .namaReviewer {
+        text-align: left;
+        margin-bottom: 3px;
+    }
+    .tanggalReviewer {
+        text-align: right;
+    }
+    
+}
+@media screen and (min-width: 590px){
+    .menu_toggle {
+        display: none;
+    }
+}
+@media screen and (min-width: 650px) {
+    .list-itemkonten {
+        padding: 16px 32px 32px 32px;
+    }
+    .nama-resto {
+        font-size: 18px;
+    }
+    .deskripsi-resto {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .restaurants {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .list-menuResto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .restaurants {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .list-menuResto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .ul {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
